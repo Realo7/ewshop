@@ -1,0 +1,9 @@
+@import '../../../node_modules/normalize.css/normalize.css';
+:root{
+    --color-text:#666;
+}
+*,
+*::before,*::after{
+    margin-top: 0 0 0 10;
+    box-sizing: border-box;
+}

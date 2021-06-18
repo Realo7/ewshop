@@ -21,7 +21,7 @@ module.exports = {
   ],
   rules: {
     'vue/max-attributes-per-line': [
-      2,
+      0,
       {
         singleline: 3,
         multiline: {
@@ -303,7 +303,7 @@ module.exports = {
       }
     ],
     'space-before-blocks': [2, 'always'],
-    'space-before-function-paren': [2, 'never'],
+    'space-before-function-paren': 0,
     'space-in-parens': [2, 'never'],
     'space-infix-ops': 2,
     'space-unary-ops': [
@@ -344,6 +344,7 @@ module.exports = {
       }
     ],
     'array-bracket-spacing': [2, 'never'],
-    'vue/no-multiple-template-root': 0
+    'vue/no-multiple-template-root': 0,
+    'vue/require-default-prop': 0
   }
 }
